@@ -1,0 +1,25 @@
+
+    <div class="banner">
+      <video autoplay loop src="../../assets/ISS Timelapse - The English Channel and beyond(1080P_HD).mp4" type="video/mp4"></video>
+
+    <div class="content">
+        <img class="img-fluid" src="../../assets/images/cd.png" alt="">
+      <form [formGroup]="MyNewForm">
+        <div class="mb-3">
+          <input formControlName="email" type="email" placeholder="Email or Username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <input formControlName="password" type="password" placeholder="Password" class="form-control" id="myinput">
+            <i formControlName="icon" class="fas fa-eye-slash hide" (click)= "myFunctionIcon()"></i>
+
+        </div>
+        <span class="forget">Did you forget the password?</span>
+        <i class="fab fa-facebook"></i>
+        <i class="fas fa-envelope-open-text"></i>
+        <button type="submit" class="btn btn-primary" routerLink="/profile" >Login</button>
+        <span class="register" routerLink="/register">For the first time visit, click <span>Register</span></span>
+      </form>
+    </div>
+
+
+    </div>

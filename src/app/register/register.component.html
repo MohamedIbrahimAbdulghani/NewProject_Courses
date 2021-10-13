@@ -1,0 +1,36 @@
+
+    <div class="banner">
+      <video autoplay loop src="../../assets/ISS Timelapse - The English Channel and beyond(1080P_HD).mp4" type="video/mp4"></video>
+
+    <div class="content">
+        <img class="img-fluid" src="../../assets/images/cd.png" alt="">
+      <form [formGroup]="MyNewForm">
+        <div class="mb-3">
+          <input type="text" placeholder="Fullname" class="form-control"  >
+        </div>
+        <div class="mb-3">
+          <input formControlName="email" type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <input formControlName="password" type="password" placeholder="Password" class="form-control" id="myinput1">
+            <i formControlName="icon1" class="fas fa-eye-slash hide1" (click)= "myFunctionIcon()"></i>
+        </div>
+        <div class="mb-3">
+          <input formControlName="retrypassword" type="password" placeholder="Retry Password" class="form-control" id="myinput2">
+            <i formControlName="icon2" class="fas fa-eye-slash hide2" (click)= "myFunctionIcon2()"></i>
+        </div>
+        <div class="form-group" placeholder="Gender">
+          <select class="form-control ">
+            <option value=""  selected hidden>Gender</option>
+            <option value="1">Male</option>
+            <option value="2">Famale</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary" routerLink="/profile" >SignUp</button>
+        <span class="register" routerLink="/login">For the first time visit, click <span>Login</span></span>
+      </form>
+    </div>
+
+
+    </div>

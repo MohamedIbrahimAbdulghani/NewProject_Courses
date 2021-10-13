@@ -1,0 +1,91 @@
+p {
+  color: #888
+}
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 60px;
+}
+.feedback {
+  margin-top: 7%;
+}
+.media img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: -54%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.feedback .feed .card {
+  margin-top: 10%;
+}
+.feedback .feed .card-body {
+  display: flex;
+}
+.feedback .feed .card-body .media-body {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.feedback .feed .card-body .media-body h5 {
+  color: #ff7a42;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Rufina",serif;
+  margin-top: 35px;
+}
+.feedback .feed .card-body .media-body span {
+  color: #57667e;
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: -125%;
+}
+.feedback .feed .card-body .media-body .star {
+  margin-top: -17%;
+  margin-left: 28%;
+}
+.feedback .feed .card-body .media-body .star i{
+  color: yellow
+}
+.feedback .feed .card p {
+  margin-top: 20px;
+  font-family: "Rubik",sans-serif;
+  color: #444;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+}
+.feedback .carousel {
+  overflow: hidden;
+}
+.feedback .carousel-control-prev,
+.feedback .carousel-control-next {
+  border: none;
+  background-color: transparent;
+}
+.feedback button.carousel-control-prev {
+  margin-left: -5%;
+}
+.feedback button.carousel-control-next {
+  margin-right: -5%;
+}
+.feedback .carousel-control-prev span.carousel-control-prev-icon,
+.feedback .carousel-control-next span.carousel-control-next-icon {
+  background-color: #ff7a42;
+}
+@media(max-width: 320px) {
+  .feedback .feed .card-body .media-body h5 {
+    margin-left: -90px
+  }
+  .feedback .feed .card-body .media-body span {
+    margin-left: -175%
+  }
+  .feedback .feed .card-body .media-body .star {
+    margin-top: -21%;
+    margin-left: 13%;
+  }
+  .feedback .feed .card p {
+    font-size: 15px;
+  }
+}

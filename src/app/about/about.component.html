@@ -1,0 +1,41 @@
+<div class="container-fluid about" id="about">
+  <div class="row">
+    <div class="col-md-6">
+        <div class="info">
+          <h1>Best specialty about excellent course</h1>
+          <p>Created by experts, elearner Academy's library of trusted practice lessons. Always free for learners and teachers.</p>
+          <div class="icon">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h2>3.500+ fresh & in-demand course</h2>
+            <p>we always have the most recent and hight-quality content that makes learning enjoyable.</p>
+
+            <i class="fas fa-user-graduate"></i>
+            <h2>1900+ Students learning outcomes</h2>
+            <p>Create impactful and relevant learning paths to achive the outcomes you want.</p>
+
+            <i class="fas fa-file-archive"></i>
+            <h2>Take full control of your program</h2>
+            <p>we always have the most recent and high-quality content that makes learning enjoyablr.</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="image-video-wrp">
+        <figure>
+            <ng-container *ngIf="videodisabled; else videoblock">
+                <img src="../../assets/images/6dcda982-4c54-4fb9-a483-70d840646c82.jpg" class="img-fluid">
+            </ng-container>
+            <ng-template #videoblock>
+                <iframe width="100%" height="390px" src="../../assets/videoplayback.mp4" allowfullscreen></iframe>
+            </ng-template>
+            <div class="play-icon-box ">
+                <img  (click)="changeImg()" [title]="play" [src]="videoIcon" alt="">
+            </div>
+        </figure>
+    </div>
+    </div>
+      </div>
+    </div>
+
+

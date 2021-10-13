@@ -1,0 +1,280 @@
+<div class="container-fluid">
+    <div class="row">
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <img class="category-image" src="../../assets/images/cd.png" alt="">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" routerLink="/profile" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"routerLinkActive="active"(click)="ToCategory()" >Category</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active"(click)="ToContact()" >Contact us</a>
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-language language"></i>
+              </li>
+              <li>
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                <datalist id="datalistOptions">
+                  <option value="San Francisco">
+                  <option value="New York">
+                  <option value="Seattle">
+                  <option value="Los Angeles">
+                  <option value="Chicago">
+                </datalist>
+              </li>
+            </ul>
+          </div>
+          <div class="enter">
+            <i class="fas fa-bell bell"></i>
+            <span>Mohamed</span>
+            <div class="drop">
+              <input class="btn btn-primary" id="btna1" type="button" value="My profile" routerLink="/videos">
+              <input class="btn btn-primary" id="btna2" type="button" value="Log out" routerLink="/">
+              <img class="image-profile" src="../../assets/images/cheerful-young-caucasian-businessman_171337-727.jpg" alt="">
+            </div>
+           </div>
+            </div>
+      </nav>
+
+      <section class="header"></section>
+      <section class="university">
+        <h1>Category</h1>
+        <div class="feedback" id="category">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                <div class="row">
+                <div class="feed col-lg-4 col-md-6">
+                  <div class="card-body">
+                    <div class="card text-center" (click)="ToCourse()">
+                      <img src="../../assets/images/fcec5d67-def9-4f1d-b25c-c10f052c9ec7-removebg-preview.png" alt="">
+                      <h3>جامعة الكويت</h3>
+                   </div>
+                  </div>
+                </div>
+                <div class="feed col-lg-4 col-md-6">
+                  <div class="card-body">
+                    <div class="card text-center" (click)="ToCourse()">
+                      <img src="../../assets/images/نصهف.png" alt="">
+                      <h3>جامعة الكويت للعلوم والتكنولوجيا</h3>
+                     </div>
+                  </div>
+                </div>
+                <div class="feed col-lg-4 col-md-6">
+                  <div class="card-body">
+                    <div class="card text-center" (click)="ToCourse()">
+                      <img src="../../assets/images/1200px-Flag_of_Egypt.svg.png" alt="">
+                      <h3>منهج مدارس مصر </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="feed col-lg-4 col-md-6">
+                      <div class="card-body">
+                        <div class="card text-center" (click)="ToCourse()">
+                          <img src="../../assets/images/fcec5d67-def9-4f1d-b25c-c10f052c9ec7-removebg-preview.png" alt="">
+                          <h3>جامعة الكويت</h3>
+                       </div>
+                      </div>
+                    </div>
+                    <div class="feed col-lg-4 col-md-6">
+                      <div class="card-body">
+                        <div class="card text-center" (click)="ToCourse()">
+                          <img src="../../assets/images/نصهف.png" alt="">
+                          <h3>جامعة الكويت للعلوم والتكنولوجيا</h3>
+                         </div>
+                      </div>
+                    </div>
+                    <div class="feed col-lg-4 col-md-6">
+                      <div class="card-body">
+                        <div class="card text-center" (click)="ToCourse()">
+                          <img src="../../assets/images/1200px-Flag_of_Egypt.svg.png" alt="">
+                          <h3>منهج مدارس مصر </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="category" id="course">
+        <div class="row">
+          <div class="course col-lg-3 col-sm-6">
+            <div class="card-body" >
+              <div routerLink="/videos"  class="card text-center">
+                <img class="course-img" src="../../assets/images/math-background_23-2148174477.jpg" alt="">
+                <div class="all">
+                  <i class="far fa-clock"></i>
+                  <span>3:4:20</span>
+                  <img class="profile-img" src="../../assets/images/cheerful-young-caucasian-businessman_171337-727.jpg" alt="">
+                  <i class="far fa-eye"></i>
+                  <span>1633</span>
+                </div>
+                <h4>Math</h4>
+                <p>this is course is the best online course in this platform</p>
+                <button class="btn btn-primary price">12$</button>
+              </div>
+            </div>
+          </div>
+          <div class="course col-lg-3 col-sm-6">
+            <div class="card-body" >
+              <div routerLink="/videos"  class="card text-center">
+                <img class="course-img" src="../../assets/images/math-background_23-2148174477.jpg" alt="">
+                <div class="all">
+                  <i class="far fa-clock"></i>
+                  <span>3:4:20</span>
+                  <img class="profile-img" src="../../assets/images/cheerful-young-caucasian-businessman_171337-727.jpg" alt="">
+                  <i class="far fa-eye"></i>
+                  <span>1633</span>
+                </div>
+                <h4>Math</h4>
+                <p>this is course is the best online course in this platform</p>
+                <button class="btn btn-primary price">12$</button>
+              </div>
+            </div>
+          </div>
+          <div class="course col-lg-3 col-sm-6">
+            <div class="card-body" >
+              <div routerLink="/videos"  class="card text-center">
+                <img class="course-img" src="../../assets/images/math-background_23-2148174477.jpg" alt="">
+                <div class="all">
+                  <i class="far fa-clock"></i>
+                  <span>3:4:20</span>
+                  <img class="profile-img" src="../../assets/images/cheerful-young-caucasian-businessman_171337-727.jpg" alt="">
+                  <i class="far fa-eye"></i>
+                  <span>1633</span>
+                </div>
+                <h4>Math</h4>
+                <p>this is course is the best online course in this platform</p>
+                <button class="btn btn-primary price">12$</button>
+              </div>
+            </div>
+          </div>
+          <div class="course col-lg-3 col-sm-6">
+            <div class="card-body" >
+              <div routerLink="/videos"  class="card text-center">
+                <img class="course-img" src="../../assets/images/math-background_23-2148174477.jpg" alt="">
+                <div class="all">
+                  <i class="far fa-clock"></i>
+                  <span>3:4:20</span>
+                  <img class="profile-img" src="../../assets/images/cheerful-young-caucasian-businessman_171337-727.jpg" alt="">
+                  <i class="far fa-eye"></i>
+                  <span>1633</span>
+                </div>
+                <h4>Math</h4>
+                <p>this is course is the best online course in this platform</p>
+                <button class="btn btn-primary price">12$</button>
+              </div>
+            </div>
+          </div>
+          <div class="course col-lg-3 col-sm-6">
+            <div class="card-body" >
+              <div routerLink="/videos"  class="card text-center">
+                <img class="course-img" src="../../assets/images/math-background_23-2148174477.jpg" alt="">
+                <div class="all">
+                  <i class="far fa-clock"></i>
+                  <span>3:4:20</span>
+                  <img class="profile-img" src="../../assets/images/cheerful-young-caucasian-businessman_171337-727.jpg" alt="">
+                  <i class="far fa-eye"></i>
+                  <span>1633</span>
+                </div>
+                <h4>Math</h4>
+                <p>this is course is the best online course in this platform</p>
+                <button class="btn btn-primary price">12$</button>
+              </div>
+            </div>
+          </div>
+          <div class="course col-lg-3 col-sm-6">
+            <div class="card-body" >
+              <div routerLink="/videos"  class="card text-center">
+                <img class="course-img" src="../../assets/images/math-background_23-2148174477.jpg" alt="">
+                <div class="all">
+                  <i class="far fa-clock"></i>
+                  <span>3:4:20</span>
+                  <img class="profile-img" src="../../assets/images/cheerful-young-caucasian-businessman_171337-727.jpg" alt="">
+                  <i class="far fa-eye"></i>
+                  <span>1633</span>
+                </div>
+                <h4>Math</h4>
+                <p>this is course is the best online course in this platform</p>
+                <button class="btn btn-primary price">12$</button>
+              </div>
+            </div>
+          </div>
+          <div class="course col-lg-3 col-sm-6">
+            <div class="card-body" >
+              <div routerLink="/videos"  class="card text-center">
+                <img class="course-img" src="../../assets/images/math-background_23-2148174477.jpg" alt="">
+                <div class="all">
+                  <i class="far fa-clock"></i>
+                  <span>3:4:20</span>
+                  <img class="profile-img" src="../../assets/images/cheerful-young-caucasian-businessman_171337-727.jpg" alt="">
+                  <i class="far fa-eye"></i>
+                  <span>1633</span>
+                </div>
+                <h4>Math</h4>
+                <p>this is course is the best online course in this platform</p>
+                <button class="btn btn-primary price">12$</button>
+              </div>
+            </div>
+          </div>
+          <div class="course col-lg-3 col-sm-6">
+            <div class="card-body" >
+              <div routerLink="/videos"  class="card text-center">
+                <img class="course-img" src="../../assets/images/math-background_23-2148174477.jpg" alt="">
+                <div class="all">
+                  <i class="far fa-clock"></i>
+                  <span>3:4:20</span>
+                  <img class="profile-img" src="../../assets/images/cheerful-young-caucasian-businessman_171337-727.jpg" alt="">
+                  <i class="far fa-eye"></i>
+                  <span>1633</span>
+                </div>
+                <h4>Math</h4>
+                <p>this is course is the best online course in this platform</p>
+                <button class="btn btn-primary price">12$</button>
+              </div>
+            </div>
+          </div>
+
+
+          <hr>
+          <div class="social" id="contact">
+            <img src="../../assets/images/28954365_682250285232651_4173878979632851472_o-removebg-preview.png" alt="">
+              <i class="fas fa-envelope"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fab fa-whatsapp-square"></i>
+              <i class="fab fa-facebook-square"></i>
+          </div>
+          <p class="text-center">
+            Copyright &copy; 2021 excellant
+          </p>
+        </div>
+
+      </section>
+    </div>
+</div>

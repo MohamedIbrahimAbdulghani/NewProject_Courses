@@ -1,0 +1,97 @@
+.parent {
+  background-image: url("../../assets/images/Untitled-1.jpg");
+  height: 600px;
+}
+.info img {
+  width: 100px;
+}
+.info span {
+  position: relative;
+  top: 12%;
+  color: #2f86d1;
+  margin-left: -60px;
+  font-weight: bold;
+}
+.info h1 {
+  margin-top: 10%;
+  margin-left: 7%;
+  color: white;
+  width: 50%;
+  font-family: 'Archivo Black', sans-serif;
+}
+.info p {
+  margin-top: 3%;
+  margin-left: 7%;
+  color: white;
+}
+.info input {
+  padding: 15px;
+  margin-left: 7%
+}
+.info .search {
+  margin-left: 85%;
+  margin-top: -45px;
+  background-color: #ff7a42;
+  color: white;
+  border: none;
+}
+.info .start {
+  background-color: #ff7a42;
+  color: white;
+  border: none;
+  margin-left: 40%;
+  margin-top: 4%;
+}
+.parent .student-image{
+  width: 90%;
+  height: 550px;
+  margin-top: 65px;
+  border-radius: 5%;
+  border-top-left-radius: 35%;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+@media(max-width: 770px) {
+  .images {
+    display: none
+  }
+  .info input {
+    width: 90%;
+  }
+}
+@media(max-width: 768px) {
+  .info h1 {
+    margin-top: 15%;
+    width: 90%;
+  }
+  .info .search {
+    margin-left: 73%;
+  }
+}
+@media(max-width: 425px) {
+  .info h1 {
+    margin-top: 15%;
+    width: 90%;
+  }
+  .info .search {
+    margin-left: 75%;
+  }
+}
+@media(max-width: 375px) {
+  .info h1 {
+    margin-top: 15%;
+    width: 90%;
+  }
+  .info .search {
+    margin-left: 73%;
+  }
+}
+@media(max-width: 320px) {
+  .info h1 {
+    margin-top: 17%;
+    width: 95%;
+  }
+  .info .search {
+    margin-left: 70%;
+  }
+}

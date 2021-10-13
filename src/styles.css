@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+.scrolltop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #ff7a42;
+  display: none;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+}
+.scrolltop i {
+  color: white;
+}

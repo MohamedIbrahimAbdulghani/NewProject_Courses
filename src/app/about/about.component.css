@@ -1,0 +1,60 @@
+.about {
+  margin-top: 50px;
+}
+.info h1 {
+  letter-spacing: 1.3px;
+  font-family: 'Archivo Black', sans-serif;
+}
+.info p {
+  color: #888;
+  letter-spacing: 1.5px;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+.info .icon i {
+  color: white;
+  background-color: #51439b;
+  font-size: 37px;
+  padding: 10px;
+  text-align: center;
+}
+.info .icon h2 {
+  margin-left: 80px;
+  margin-top: -65px;
+}
+.info .icon p {
+  margin-left: 80px;
+  margin-bottom: 5%
+}
+.play-icon-box {
+  margin-top: -69%;
+  height: 489px;
+  cursor: pointer;
+
+  margin-bottom: 0%;
+}
+figure img {
+  border-top-left-radius: 30%;
+}
+.play-icon-box img {
+  height: 10%;
+  width: 10%;
+  cursor: pointer;
+  margin-top: 35%;
+  margin-left: 45%;
+}
+@media(max-width: 425px) {
+  .play-icon-box {
+    margin-bottom: -40%;
+  }
+}
+@media(max-width: 375px) {
+  .play-icon-box {
+    margin-bottom: -65%;
+  }
+}
+@media(max-width: 320px) {
+  .play-icon-box {
+    margin-bottom: -95%;
+  }
+}
